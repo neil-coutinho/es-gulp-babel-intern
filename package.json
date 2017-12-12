@@ -1,7 +1,11 @@
 {
   "name": "demo02",
   "quokka": {
-    "babel": true
+    "babel": {
+      "presets": [
+        "react-app", "es2015"
+      ]
+    }
   },
   "version": "1.0.0",
   "description": "",
